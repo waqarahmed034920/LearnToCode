@@ -1,0 +1,24 @@
+1. how to download a git repository
+
+
+got to command prompt (DOS window)
+D:/>java.script> git clone https://github.com/waqarahmed034920/LearnToCode.git
+
+2. how to add new files.
+
+git status
+
+git add .
+git status
+
+git commit -m"reason to add the file"
+
+git config --global user.email "github ka email likhna ha."
+git config --global user.user "github ka user name likhna ha."
+
+git push
+
+git branch (this will tell you which branch are you connected with.)
+
+
+

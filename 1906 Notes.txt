@@ -1,0 +1,66 @@
+// declare a variable.
+// case sensitive language.
+
+console.clear();
+var a;
+var b;
+var ans;
+
+var txtx = document.getElementById('txtx');
+var txty = document.getElementById('txty');
+var txtz = document.getElementById('txtZ');
+
+a = parseInt(txtx.value);
+// yeah string main sey numeric value uthata ha.
+// it converts string into number;
+
+b = parseInt(txty.value);
+ans = a + b;
+
+txtz.value = ans;
+
+// event driven coding.
+// jab user txtx main value change karey to.
+// jab user txty main value change karey to.
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  
+  
+  <div>
+    <label for="txtx">first number:
+      <input value="14" type="text" id="txtx">
+    </label>
+  </div>
+  <div>
+    <label for="txty">second number:
+      <input value="45" type="text" id="txty">
+    </label>
+  </div>
+  <div>
+    <label for="txtZ">answer:
+      <input type="text" id="txtZ">
+    </label>
+  </div>
+   <div>
+     <button>
+       Add
+     </button>
+   </div>
+  
+</body>
+</html>
+
+
+
+div {
+  margin-top: 50px;
+}
