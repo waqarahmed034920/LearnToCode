@@ -1,0 +1,75 @@
+// console.clear();
+
+var x, y, z;
+var answerBox = document.getElementById('txtz');
+var input1 = document.getElementById('txtx');
+var input2 = document.getElementById('txty');
+
+x = input1.value;
+y = input2.value;
+
+z = parseInt(x) + parseInt(y);
+
+answerBox.value = z;
+
+// event driven programming
+// wakia 
+// gotFocus, lostFocus, blur, keypress, mouseIn, mousemove,
+// mouseClick
+// mouseDown
+// mousein, mouseMove, MouseDown, MouseClick, MouseUp
+function add() {
+  x = input1.value;
+  y = input2.value;
+  z = parseInt(x) + parseInt(y);
+  answerBox.value = z;
+};
+
+
+document.getElementById('btnAnswer').addEventListener('click', add);
+
+------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  
+  <div>
+    <label for="txtx">first number:
+      <input id="txtx" type="text">
+    </label>
+  </div>
+  
+  <div>  
+    <label for="txty">second number:
+      <input id="txty" type="text">
+    </label>
+  </div>
+  
+  <div>
+    <label for="txtz">Answer:
+      <input id="txtz" type="text">
+    </label>
+  </div>
+  
+  
+  <div>
+    <button id="btnAnswer">
+      Answer
+    </button>
+  </div>
+  
+  
+</body>
+</html>
+---------------------------
+
+div {
+  margin-top: 30px;
+  border: 1px solid green;
+  padding: 5px;
+}
