@@ -1,0 +1,29 @@
+console.clear();
+var x = 5, y = 10, z, s = "10", ans;
+var a = x;
+// comparison operator
+// ==, ===, >, <, >=, <=
+// these operators always return either true or false
+
+// == equality operator
+// its only compare the value of both sides.
+
+ans = x == y;
+console.log(ans);
+
+
+// === equality operator
+// its compare the value and data type of both sides.
+// will return false if anything is not equal.
+
+ans = y === s;
+console.log(ans);
+
+ans = a === x;
+console.log(ans);
+
+ans = x < y;
+console.log(ans);
+
+
+
