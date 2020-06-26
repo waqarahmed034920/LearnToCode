@@ -13,12 +13,26 @@ git status
 
 git commit -m"reason to add the file"
 
-git config --global user.email "github ka email likhna ha."
-git config --global user.user "github ka user name likhna ha."
+
+------------------------------------------
+
+agar user id passwork ka pochey to yeah 2 commands likhni hain
+
+---git config --global user.email "github ka email likhna ha."
+---git config --global user.user "github ka user name likhna ha."
+-----------------------------------------------------------------
 
 git push
 
 git branch (this will tell you which branch are you connected with.)
 
+
+3. how to submit changes.
+git add .
+git commit -m "reason"
+git push
+
+
+4. how to create new branch.
 
 

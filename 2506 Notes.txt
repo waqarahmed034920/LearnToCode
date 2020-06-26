@@ -1,0 +1,61 @@
+Arithmetic Operators
+console.clear();
+var x = 5, y = 10, z = 15, ans;
+
+console.log(x);
+
+x++;
+console.log(x);
+
+x--;
+console.log(x);
+
+ans = x + y; 
+console.log(ans);
+
+ans = y - x; 
+console.log(ans);
+
+ans = x * y; 
+console.log(ans);
+
+ans = y / x;
+console.log(ans);
+
+ans = x % 2; // 
+console.log(ans);
+
+% modulus operator
+
+ans = 5 % 2
+ans = 1
+
+why
+
+yeah 5 ko 2 per divide karey ga or jo baki bachey ga woh answer ko assign kar dey ga.
+
+
+
+
+
+
+
+
+console.clear();
+// comparison operators.
+
+var a = 5, b = 10, c = "5", ans;
+var x = a;
+
+
+ans = (a == c);
+// == yeah check karta ha k value same ha ya nahi.
+
+console.log(ans);
+
+ans = (a === c);
+// === value k sath sath data type bhi check karta ha.
+console.log(ans);
+
+ans = (a == x);
+console.log(ans); 
