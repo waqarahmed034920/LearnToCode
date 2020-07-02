@@ -1,0 +1,38 @@
+// jo koi input laita ha 
+// uss per kaam karta ha.
+// out put return karta ha.
+
+// function . (return an output)
+// sub routine. (yeah kuch return nahi karta.)
+
+function logger(s){
+  console.log(s);
+}
+
+function fname(param1, param2) {
+  var ans = param1 + param2;
+  return ans;
+}
+
+// call a function
+var a = 3, b = 4, x;
+x = fname(12, 15);
+
+logger(x);
+
+var add = function(a, b) {
+  var ans = a + b;
+  return ans;
+}
+
+var z = function(a, b) {
+  var ans = a + b;
+  return ans;
+};
+
+var T = z(40, 40);
+logger(T);
+
+x = add(5, 7);
+logger(x);
+
