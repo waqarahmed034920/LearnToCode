@@ -5,8 +5,6 @@ btn.addEventListener('click', onApplyClick);
 
 function onApplyClick() {
 
-    var essey = "<h1>Write an essay</h1><h2>My School</h2><p>xyz is my best friend we go to school together.</p>";
-
     if (txt.value === "1") {
         d.innerHTML = myBestFriend();
     } else if (txt.value === "2") {
