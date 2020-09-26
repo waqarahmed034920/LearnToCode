@@ -1,0 +1,52 @@
+console.clear();
+var btn = document.getElementById('btnSave');
+btn.addEventListener('click', onSaveClick);
+// person is an object;
+var person = new Object();
+person.getFullName = function() {
+  return person.firstName + ' ' + person.lastName;
+}
+
+function onSaveClick() {
+  person.firstName = document.getElementById('txtFname').value;
+  person.lastName = document.getElementById('txtLname').value;
+  person.phone = document.getElementById('txtPhone').value;
+  person.address = document.getElementById('txtAddress').value;
+  person.email = document.getElementById('txtEmail').value;
+  
+  console.log(person.getFullName())
+
+  console.log(person);
+}
+
+
+
+
+
+
+
+
+  <div>
+    <label>First Name:</label>
+    <input type="text" id="txtFname">
+  </div>
+  <div>
+    <label>Last Name:</label>
+    <input type="text" id="txtLname">
+  </div>
+  <div>
+    <label>Address:</label>
+    <input type="text" id="txtAddress">
+  </div>
+  <div>
+    <label>Phone:</label>
+    <input type="text" id="txtPhone">
+  </div>
+  <div>
+    <label>Email:</label>
+    <input type="text" id="txtEmail">
+  </div>
+  <div>
+    <button id="btnSave">Save</button>
+  </div>
+</body>

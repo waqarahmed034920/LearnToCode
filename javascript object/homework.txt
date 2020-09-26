@@ -1,0 +1,11 @@
+person
+firstName, lastName, Address, Phone, Email
+
+insert into person(firstName, lastName, Address, Phone, Email) values('waqar', 'Ahmed', 'lahore', '0123456', 'waqar@test.com');
+
+
+update person set firstName = 'waqar, lastName = 'Ahmed', address='Karachi', phone = '012345', email = 'waqar@test.com'
+where Id =  001;
+
+
+delete from person where id = 001;
